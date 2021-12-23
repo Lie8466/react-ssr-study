@@ -8,7 +8,7 @@
     "dev:start": "npx nodemon --watch build --exec node \"./build/bundle.js\"",
     "dev:build:server": "webpack --config webpack.server.js --watch",
     "dev:build:client": "webpack --config webpack.client.js --watch",
-    "dev:api:start": "node src/api/api"
+    "dev:api:start": "node api/api"
   },
   "author": "",
   "license": "ISC",
